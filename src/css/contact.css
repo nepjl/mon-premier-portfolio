@@ -1,0 +1,32 @@
+.contact{
+    background-color: var(--second-bg-color);
+
+}
+
+.contact h2{
+    margin-bottom: 1rem;
+    color: var(--text-color);
+}
+
+.contact form{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.contact form .group-input_box input, .contact form textarea{
+    width: 100%;
+    padding: 2rem;
+    font-size: 1.5rem;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+    border-radius: 2rem;
+    border: 2px solid var(--main-color);
+    margin: 1rem 0;
+    resize: none;
+
+}
